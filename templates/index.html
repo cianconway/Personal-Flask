@@ -19,6 +19,17 @@
 
 </head>
 
+<style type="text/css">
+
+    body {
+        background: url('https://images.unsplash.com/photo-1454165205744-3b78555e5572?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=ca8c08d17555247f7580691500bb5351'); 
+        display: compact; 
+        background-size: 100%;" 
+        background-repeat:no-repeat;
+    }
+
+</style>
+
 <body>
 
     <header class="navbar navbar-inverse">
@@ -32,17 +43,16 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="#">Cian Conway</a>
                     </div>
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
-                            <li><a href="#">Blog <span class="sr-only">(current)</span></a></li>
-                            <li><a href="">Projects</a></li>
+                            <li><a href="{{ url_for('about') }}">Blog <span class="sr-only">(current)</span></a></li>
+                            <li><a href="{{ url_for('about') }}">Projects</a></li>
                             <li><a href="{{ url_for('about') }}">About</a></li>
                         </ul>
 
                         <ul class="nav navbar-nav navbar-right">
-                            <a class="navbar-brand" href="#">Software Engineer</a>
+                            <a class="navbar-brand" href="#" style="color: white;">Cian Conway</a>
                         </ul>
                     </div><!-- /.navbar-collapse -->
                 </div>
@@ -50,9 +60,22 @@
         </div>
     </header>
 
+    <div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+   </div>
 
-    <div class="image">
-        <a href="">Projects</a>
+    <div class="col-md-12 centered">
+        <div class="carousel-caption" style="position: absolute; top: 45%; left: 0; width: 100%;  vertical-align: middle;">
+               <a href="https://www.linkedin.com/in/cianconway">
+                <img border="0" alt="LinkedIn" src="/static/images/linked-in-icon.png" width="50" height="50">
+              </a>
+              <a href="https://github.com/cianconway">
+                <img border="0" alt="Twitter" src="/static/images/github-icon.png" width="50" height="50">
+              </a>
+              <a href="https://twitter.com/kingcanway">
+                <img border="0" alt="Twitter" src="/static/images/twitter-icon.png" width="50" height="50">
+              </a>
+        </div>
     </div>
 
 <!-- Latest compiled and minified JavaScript -->
