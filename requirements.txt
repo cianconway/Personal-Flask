@@ -6,7 +6,7 @@ Pillow==2.3.0
 Pygments==1.6
 Twisted-Core==13.2.0
 Twisted-Web==13.2.0
-Werkzeug==0.11.10
+Werkzeug==0.15.3
 adium-theme-ubuntu==0.3.4
 apt-xapian-index==0.45
 argparse==1.2.1
