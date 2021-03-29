@@ -3,7 +3,7 @@ Jinja2==2.8
 MarkupSafe==0.23
 PAM==0.4.2
 Pillow==2.3.0
-Pygments==1.6
+Pygments==2.7.4
 Twisted-Core==13.2.0
 Twisted-Web==13.2.0
 Werkzeug==0.11.10
